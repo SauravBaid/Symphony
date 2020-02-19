@@ -43,7 +43,7 @@ export default class Common extends Component {
           
           <View style={{ flexDirection: 'row' }} >
             <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} 
-            onPress={()=>{
+                onPress={()=>{
                     this.props.item(" Market")
                 }}>
               <Text>
@@ -51,13 +51,21 @@ export default class Common extends Component {
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} >
+            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} 
+                onPress={()=>{
+                    this.props.item(" Home")
+                }}
+            >
               <Text>
                 HOME
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} >
+            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} 
+                onPress={()=>{
+                    this.props.item(" Beach")
+                }}
+            >
               <Text>
                 BEACH
               </Text>
@@ -65,19 +73,31 @@ export default class Common extends Component {
           </View>
 
           <View style={{ flexDirection: 'row'}} >
-            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} >
+            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} 
+                onPress={()=>{
+                    this.props.item(" Play")
+                }}
+            >
               <Text>
                 PLAY
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} >
+            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} 
+                onPress={()=>{
+                    this.props.item(" Work")
+                }}
+            >
               <Text>
                 WORK
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} >
+            <TouchableOpacity style={{height: 60, width: 110, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center', margin: 10  }} 
+                onPress={()=>{
+                    this.props.item(" Chill")
+                }}
+            >
               <Text>
                 CHILL
               </Text>
